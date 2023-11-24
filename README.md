@@ -1,8 +1,40 @@
-# React + Vite
+# South Journey
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto faz parte do MVP da disciplina Sprint III: Desenvolvimento Front-end Avançado, pós-graduação PUC-Rio.
 
-Currently, two official plugins are available:
+A South Journey é uma agência fictícia, a qual realiza excursões em países da América do Sul. Com o foco no desenvolvimento front-end e utilizando a biblioteca React.js, o objetivo da aplicação é exercer o papel de interface de interação com o usuário, onde quatro páginas foram desenvolvidas seguindo os princípios de componentização e fazendo uso de recursos do React (como hooks, por exemplo).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Principais tecnologias utilizadas:
+ - HTML5
+ - CSS3
+ - JavaScript
+ - React
+
+
+Link do projeto no Figma: https://www.figma.com/community/file/1309687243943078973/south-journey
+
+
+## Como executar
+
+Será necessário ter o Node.js, ou o npm, instalados.
+
+Após clonar o repositório, é necessário ir ao diretório raiz desse projeto pelo terminal para poder executar os comandos descritos abaixo:
+
+
+```
+$ npm install
+
+```
+
+
+Este comando instala as dependências/bibliotecas descritas no arquivo package.json. Uma pasta chamada "node_modules" será criada.
+
+Para executar a interface, basta executar o comando:
+
+
+```
+$ npm run dev
+
+```
+
+Abra o localhost no navegador.
