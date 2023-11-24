@@ -1,0 +1,48 @@
+.header {
+    background-color: var(--color-primary);
+    padding: 1.6rem 0 2rem 0;
+}
+
+.navigation {
+    display: flex;
+    gap: 80px;
+    padding-left: 117px;
+    justify-content: center;
+}
+
+.navigation a {
+    color: var(--gray-scale-2);
+    font-family: var(--type-second);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navigation a:hover {
+    color: var(--color-secondary);
+}
+
+.navigation a[aria-current="page"] {
+    color: var(--color-secondary);
+    position: relative;
+}
+
+.navigation a[aria-current="page"]::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-secondary);
+    position: absolute;
+    top: 25px;
+}
+
+.navigation a:nth-child(3)[aria-current="page"]::after {
+    content: none;
+}
+
+.navigation a:nth-child(1),
+.navigation a:nth-child(2),
+.navigation a:nth-child(4),
+.navigation a:nth-child(5) {
+    margin-top: 150px;
+}
