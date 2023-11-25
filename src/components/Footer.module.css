@@ -1,0 +1,53 @@
+footer {
+    background-color: var(--color-primary);
+    padding: 3rem 0;
+}
+
+.footerConteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 230px;
+    margin-bottom: 64px;
+}
+
+h3 {
+    color: var(--gray-scale-0);
+    margin-bottom: 32px;
+}
+
+p {
+    font-size: 1rem;
+    color: var(--gray-scale-4);
+    margin-bottom: 8px;
+    line-height: 160%;
+}
+
+.footerContato1 {
+    margin-bottom: 24px;
+}
+
+.footerContato2 {
+    margin-bottom: 32px;
+}
+
+.redesSociaisFooter {
+    display: flex;
+    gap: 24px;
+    cursor: pointer;
+    max-width: max-content;
+}
+
+.redesSociaisFooter a {
+    transition: 0.2s ease-in-out;
+}
+
+.redesSociaisFooter a:hover {
+    transform: scale(1.2);
+}
+
+.footerInfos a {
+    color: var(--gray-scale-4);
+    font-family: var(--type-second);
+    display: block;
+    margin-bottom: 16px;
+}
