@@ -1,9 +1,14 @@
-import React from 'react';
+import React from "react";
+import Head from "../components/Head";
+
 
 const Contato = () => {
   return (
-    <div>Contato</div>
+    <div>
+      <Head title="Contato" description="Nosso contato."/>
+      Contato      
+    </div>
   )
-}
+};
 
 export default Contato;
