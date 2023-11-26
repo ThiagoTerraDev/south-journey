@@ -5,7 +5,7 @@ const Sobre = () => {
   return (
     <div>
       <Head title="Sobre" description="Sobre a South Journey."/>
-      TermosECondicoes      
+      Sobre      
     </div>
   )
 }
