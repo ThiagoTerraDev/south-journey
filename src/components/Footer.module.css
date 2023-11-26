@@ -51,3 +51,7 @@ p {
     display: block;
     margin-bottom: 16px;
 }
+
+.footerInfos a:hover {
+    color: var(--gray-scale-0);
+}
