@@ -1,0 +1,66 @@
+.conteudoPrincipal {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 88px;
+    margin-bottom: 8px;
+    gap: 104px;
+}
+
+.dadosRedes h2 {
+    color: var(--color-primary);
+    margin-bottom: 40px;
+}
+
+.dadosRedes p {
+    color: var(--color-primary);
+    font-size: 1.2rem;
+}
+
+.dadosRedes p:nth-of-type(2) {
+    margin-top: 24px;
+    margin-bottom: 64px;
+}
+
+.redesSociais svg {
+    filter: invert(100%);
+    transition: 0.2s ease-in-out;
+}
+
+.redesSociais svg:hover {
+    transform: scale(1.2);
+}
+
+.redesSociais a:first-of-type {
+    margin-right: 24px;
+}
+
+.formularioContato h2 {
+    margin-bottom: 40px;
+}
+
+.inputsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;    
+}
+
+.inputsContainer div:nth-of-type(3), .inputsContainer div:nth-of-type(4)  {
+    grid-column: 1 / -1;
+}
+
+label {
+    font-family: var(--type-second);
+    font-size: 1.2rem;
+    font-weight: 500;    
+}
+
+input, textarea {
+    font-family: var(--type-second);
+    font-size: 1.2rem;
+    background: #f7f7f7;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    padding: 12px;
+    width: 100%;
+    margin-top: 8px;
+}
