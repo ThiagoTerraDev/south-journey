@@ -3,6 +3,7 @@ import Head from "../components/Head";
 import styles from "./Contato.module.css";
 import { ReactComponent as Linkedin } from "../assets/linkedin.svg";
 import { ReactComponent as Github } from "../assets/github.svg";
+import Button from "../components/Button";
 
 
 const Contato = () => {
@@ -45,6 +46,7 @@ const Contato = () => {
                   <textarea rows={5} id='mensagem' name='mensagem' placeholder='O que você precisa?'></textarea>
                 </div>
               </div>
+              <Button name='Enviar mensagem' variant='purple'/>
             </form>
           </section>
           
