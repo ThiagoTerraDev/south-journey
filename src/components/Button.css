@@ -1,0 +1,38 @@
+.defaultButton {
+    padding: 10px 24px;
+    border-radius: 4px;
+    background: #000;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: #fff;
+    font-family: var(--type-first);
+    font-size: 16px;    
+    font-weight: 600;    
+    cursor: pointer;
+}
+
+.yellowButton {
+    padding: 10px 24px;
+    border-radius: 4px;
+    background: #FFEE87;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: #133335;
+    font-family: var(--type-first);
+    font-size: 16px;    
+    font-weight: 600;    
+    cursor: pointer;
+}
+  
+.purpleButton {
+    padding: 10px 24px;
+    border-radius: 4px;
+    background: #8A0459;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: #fff;
+    font-family: var(--type-first);
+    font-size: 16px;    
+    font-weight: 600;    
+    cursor: pointer;
+}
