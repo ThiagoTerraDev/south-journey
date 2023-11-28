@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "../components/Head";
 import styles from "./Sobre.module.css";
+import Button from "../components/Button";
 
 
 const Sobre = () => {
@@ -36,7 +37,8 @@ const Sobre = () => {
           <div>
             <h2>NOSSA MISSÃO: CONECTAR PESSOAS COM DESTINOS EXTRAORDINÁRIOS</h2>
             <p>Podemos proporcionar uma experiência de viagem verdadeiramente excepcional. Nossos roteiros cuidadosamente planejados são projetados para oferecer uma imersão autêntica na rica cultura, na deslumbrante natureza e nas fascinantes tradições dos destinos sul-americanos.</p>
-            <p>Nossa equipe é composta por especialistas apaixonados por viagens, dedicados a tornar a sua experiência conosco verdadeiramente memorável. Com um profundo conhecimento local, nossos guias turísticos e equipe de suporte estão sempre prontos para garantir que cada detalhe da sua viagem seja perfeito.</p>            
+            <p>Nossa equipe é composta por especialistas apaixonados por viagens, dedicados a tornar a sua experiência conosco verdadeiramente memorável. Com um profundo conhecimento local, nossos guias turísticos e equipe de suporte estão sempre prontos para garantir que cada detalhe da sua viagem seja perfeito.</p>
+            <Button name="Fale conosco" variant="purple" path="contato"/>           
           </div>
           <img src="src\assets\img-aviao.png" alt="Imagem de um avião no céu." />
         </section>

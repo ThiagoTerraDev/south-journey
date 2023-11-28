@@ -36,3 +36,9 @@
     font-weight: 600;    
     cursor: pointer;
 }
+
+.purpleButton:hover {
+    outline: 2px solid rgba(138, 4, 89, 0.5);
+    outline-offset: 2px;
+    transition: outline-color 0.3s ease;
+}
