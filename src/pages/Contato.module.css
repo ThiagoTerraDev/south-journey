@@ -36,6 +36,7 @@
 
 .formularioContato h2 {
     margin-bottom: 40px;
+    color: var(--color-primary);
 }
 
 .inputsContainer {
@@ -51,7 +52,12 @@
 label {
     font-family: var(--type-second);
     font-size: 1.2rem;
-    font-weight: 500;    
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+input {
+    margin-bottom: 4px;
 }
 
 input, textarea {
