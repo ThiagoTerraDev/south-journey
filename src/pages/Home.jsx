@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Head from "../components/Head";
 import styles from "./Home.module.css";
 import Button from "../components/Button";
+import Passeios from "../passeios.json";
 
 
 const Home = () => {
@@ -30,7 +31,18 @@ const Home = () => {
     }, 5000);
   
     return () => clearInterval(interval);
-  }, [bolinhaAtiva]); 
+  }, [bolinhaAtiva]);
+  
+  const imagensPasseiosPath = "src/assets/";
+
+  const imagemPasseioMaior = styles.imagemPasseioMaior;
+  const imagensPasseiosMenores = styles.imagensPasseiosMenores;
+
+  const [passeios, setPasseios] = useState([]);
+
+  useEffect(() => {
+    setPasseios(Passeios);
+  }, []);
 
   return (
     <div>
@@ -56,6 +68,21 @@ const Home = () => {
               className={`${styles.bolinha} ${bolinhaAtiva === 2 ? styles.active : ''}`}
               onClick={() => handleClick(2, 'src/assets/home-bg-3.jpg')}
             ></span>
+          </div>
+        </section>
+
+        <section className={styles.passeiosSection}>
+          <h2>PASSEIOS</h2>
+          <p>Escolha um destino e viva experiências incríveis!</p>
+          <div className={`${styles.passeiosDetalhes} container1`}>
+            {passeios.map((passeio, index) => (
+              <React.Fragment key={passeio.id}>
+                <img src={imagensPasseiosPath + passeio.imagem} alt={passeio.titulo} className={index === 0 ? imagemPasseioMaior : imagensPasseiosMenores}/>
+                <p className={styles.partirDe}>a partir de</p>
+                <h4 className={styles.passeioPreco}>R$ {passeio.preco}</h4>
+                <h3 className={styles.passeioTitulo}>{passeio.titulo}</h3>
+              </React.Fragment>
+            ))}
           </div>
         </section>
 

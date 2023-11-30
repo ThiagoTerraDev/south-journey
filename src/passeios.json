@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "titulo": "Fernando de Noronha, Brasil.",
+        "preco": 9000,
+        "imagem": "fernando-de-noronha.jpg"            
+    },
+    {
+        "id": 2,
+        "titulo": "Buenos Aires, Argentina.",
+        "preco": 5000,
+        "imagem": "buenos-aires.jpg"            
+    },
+    {
+        "id": 3,
+        "titulo": "Machu Picchu, Peru.",
+        "preco": 4000,
+        "imagem": "machu-picchu.jpg"             
+    },
+    {
+        "id": 4,
+        "titulo": "Deserto de Atacama, Chile.",
+        "preco": 8500,
+        "imagem": "deserto-atacama.jpg"           
+    },
+    {
+        "id": 5,
+        "titulo": "Punta del Este, Uruguai.",
+        "preco": 9500,
+        "imagem": "punta-del-este.jpg"           
+    }    
+]
