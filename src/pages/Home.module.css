@@ -1,0 +1,50 @@
+.introducaoConteudo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.tagline {
+    text-align: center;
+    font-family: var(--type-second);
+    font-weight: 500;
+    color: var(--gray-scale-3);
+    padding-top: 104px;
+    margin-bottom: 8px;
+}
+
+.introducaoConteudo h1 {
+    color: var(--gray-scale-0);
+    margin-top: 0;
+    margin-bottom: 56px;
+}
+
+.introducaoConteudo button {    
+    margin: 0 auto;
+}
+
+.bolinhas {
+    display: flex;
+    gap: 12px;
+    margin-top: 114px;
+    padding-bottom: 80px;
+    justify-content: center; 
+}
+
+.bolinha {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;    
+    border: 1px solid var(--color-secondary);
+    cursor: pointer;
+}
+
+.bolinha:last-child {
+    margin-right: 0;
+}
+
+.active {
+    background-color: var(--color-secondary);
+}
