@@ -188,7 +188,7 @@
 }
 
 .passeioTitulo {
-    color: #fff;
+    color: var(--gray-scale-0);
     max-width: 190px;
     font-size: 1.4rem;
 }
@@ -216,4 +216,91 @@
 .passeioTitulo:nth-of-type(5) {    
     top: 85.3%;
     right: 3.7%;
+}
+
+.diferenciaisSection {
+    background-color: var(--color-primary);
+    padding-top: 80px;
+    padding-bottom: 88px;
+    margin-bottom: 80px;
+    display: grid;
+    place-items: center;    
+}
+
+.diferenciaisSection h2 {
+    color: var(--color-secondary);
+    margin-bottom: 40px;
+}
+
+.diferenciaisSection p {
+    color: var(--gray-scale-3);
+    font-size: 1.2rem;
+    line-height: 160%;
+    text-align: center;
+}
+
+.diferenciaisDiv {
+    position: relative;
+    margin-top: 80px;
+}
+
+.diferenciaisDiv::after {
+    content: "";
+    width: 698.5px;
+    height: 81px;
+    display: block;
+    background: url("../assets/linhas.svg") no-repeat center;
+    position: absolute;
+    top: 80px;
+    right: 116px;
+    /* z-index: -1; */
+}
+
+.diferenciaisDiv img {
+    margin-left: 387px;
+    max-width: 162px;
+}
+
+.diferenciaisLista {
+    display: grid;
+    grid-template-columns: 230px 258px 232px;    
+    justify-items: center;
+    gap: 104px;
+}
+
+.gridColuna {
+    width: 250px;
+    margin: 32px 0 20px 0;
+    float: none;
+    text-align: center;
+}
+
+.diferenciaisLista p {
+    font-size: 1rem;
+    line-height: 160%;
+}
+
+.diferenciaisDiv h4 {
+    color: var(--gray-scale-0);
+}
+
+.diferenciaisLista li p {
+    font-size: 1rem;
+}
+
+.diferenciaisLista h4 {
+    margin-bottom: 32px;
+}
+
+.diferenciaisLista h4::after {
+    content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: var(--color-secondary);
+	margin: 16px auto;
+}
+
+.diferenciaisSection button {
+    margin-top: 44px;
 }

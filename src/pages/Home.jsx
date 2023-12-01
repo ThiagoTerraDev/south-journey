@@ -86,6 +86,29 @@ const Home = () => {
           </div>
         </section>
 
+        <section className={styles.diferenciaisSection}>
+          <h2>DIFERENCIAIS</h2>
+          <p>A South Journey oferece uma combinação única de aventura e conforto,<br />garantindo que cada excursão seja uma experiência inesquecível.</p>
+          <div className={`${styles.diferenciaisDiv} container1`}>
+            <img src="src\assets\world-plane.png" alt="Logotipo avião." />
+            <ul className={styles.diferenciaisLista}>
+              <li className={styles.gridColuna}>
+                <h4>SATISFAÇÃO</h4>
+                <p>O nosso maior foco é você se sentir satisfeito e seguro, tendo a certeza de que o investimento valeu muito à pena!</p>
+              </li>
+              <li className={styles.gridColuna}>
+                <h4>COMPROMISSO</h4>
+                <p>Somos totalmente comprometidos com nossos princípios e o nosso time é alinhado e orientado para entregar um serviço de qualidade.</p>
+              </li>
+              <li className={styles.gridColuna}>
+                <h4>RESPONSABILIDADE</h4>
+                <p>A South Journey é conhecida por oferecer programas turísticos em conformidade com todas as normas de segurança.</p>
+              </li>
+            </ul>
+          </div>
+          <Button name="Saiba mais" variant="yellow" path="sobre"/>
+        </section>
+
       </main>
 
     </div>
