@@ -304,3 +304,57 @@
 .diferenciaisSection button {
     margin-top: 44px;
 }
+
+.depoimentosSection h2 {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 80px;
+}
+
+.depoimento {
+    background-color: rgba(138, 4, 89, 0.1);;
+    max-width: 820px;
+    margin: 0 auto;
+    margin-bottom: 112px;
+    display: grid;
+    justify-items: center;
+    box-sizing: border-box;
+    padding: 56px 0;
+    border-radius: 4px;
+}
+
+.depoimento img {
+    max-width: 150px;
+}
+
+.depoimento p {
+    color: var(--color-primary);
+    font-family: var(--type-third);
+    font-size: 1.3rem;
+    max-width: 675px;
+    line-height: 160%;
+    margin-top: 40px;
+    margin-bottom: 64px;
+    font-weight: 900;
+}
+
+.depoimento span {
+    font-family: var(--type-second);
+    font-weight: 300;
+    font-size: 1.2rem;
+    position: relative;
+    z-index: 100;
+}
+
+.depoimento span::before {
+    content: "";
+	width: 50%;
+	height: 3px;	
+	position: absolute;
+    border-radius: 1px;
+    background: #04838A; 
+    top: -32px;
+    left: 34px;
+    z-index: 200;
+    display: block;	
+}

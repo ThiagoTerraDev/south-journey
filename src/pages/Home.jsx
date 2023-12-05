@@ -109,6 +109,17 @@ const Home = () => {
           <Button name="Saiba mais" variant="yellow" path="sobre"/>
         </section>
 
+        <section className={styles.depoimentosSection}>
+              <h2>DEPOIMENTOS</h2>
+              <div className={styles.depoimento}>
+                <img src="src\assets\estrelas.png" alt="" />
+                <p>Minha experiência com a South Journey em Buenos Aires
+                e Punta del Este foi a melhor possível. Personalização do itinerário, atenção aos detalhes, enfim, a equipe se mostrou comprometida em oferecer um serviço excepcional. Os guias especializados nos locais visitados enriqueceram a experiência, proporcionando insights únicos. Sem dúvida, 
+                a empresa superou todas as minhas expectativas.</p>
+                <span>Thiago Terra, 27</span>
+              </div>
+        </section>
+
       </main>
 
     </div>
