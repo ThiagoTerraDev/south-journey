@@ -10,7 +10,7 @@ const Footer = () => {
     <footer>
 
       <div className={`${styles.footerConteudo} container1`}>
-        <Logo />
+        <Logo className={styles.logotipoFooter} />
 
         <div className={styles.footerContato}>
           <h3>CONTATO</h3>

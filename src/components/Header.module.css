@@ -46,3 +46,146 @@
 .navigation a:nth-child(5) {
     margin-top: 150px;
 }
+
+@media (max-width: 1250px) {
+    .navigation {       
+        gap: 56px;
+        padding-left: 95px;               
+    }
+
+    .navigation a {        
+        font-size: 0.9rem;       
+    }    
+}
+
+@media (max-width: 1001px) {
+    .header {        
+        padding: 0.5rem 0 0.5rem 0;
+    }
+    
+    .navigation {       
+        gap: 40px;
+        padding-left: 75px;               
+    }
+
+    .navigation a {        
+        font-size: 0.7rem;       
+    }
+    
+    .navigation a:nth-child(1),
+    .navigation a:nth-child(2),
+    .navigation a:nth-child(4),
+    .navigation a:nth-child(5) {
+        margin-top: 138px;
+    }
+    
+    .navigation svg {
+        max-width: 220px;
+    } 
+    
+    .navigation a[aria-current="page"]::after {
+        top: 20px;
+    }   
+}
+
+@media (max-width: 801px) {        
+    .navigation {       
+        gap: 40px;
+        padding-left: 40px;               
+    }    
+    
+    .navigation a:nth-child(1),
+    .navigation a:nth-child(2),
+    .navigation a:nth-child(4),
+    .navigation a:nth-child(5) {
+        margin-top: 131px;
+    }
+
+    .navigation a[aria-current="page"]::after {
+        content: none;
+    }
+    
+    .navigation svg {
+        max-width: 190px;
+    }
+}
+
+@media (max-width: 601px) {
+    .header {        
+        padding: 0.5rem 0 1.2rem 0;
+    }
+    
+    .navigation {       
+        gap: 32px;
+        padding-left: 25px;               
+    }
+
+    .navigation a {        
+        font-size: 0.6rem;            
+    }
+    
+    .navigation a:nth-child(1),
+    .navigation a:nth-child(2),
+    .navigation a:nth-child(4),
+    .navigation a:nth-child(5) {
+        margin-top: 87px;
+    }
+
+    .navigation a:nth-child(3) {
+        height: 120px;
+    }
+    
+    .navigation svg {
+        max-width: 150px;
+        height: 120px;
+    }
+}   
+
+@media (max-width: 361px) {
+    .header {        
+        padding: 0.5rem 0 4.8rem 0;
+    }
+    
+    .navigation {
+        padding-left: 0px;
+        position: relative;               
+    }
+
+    .navigation a {        
+        font-size: 0.6rem;            
+    }
+
+    .navigation a[aria-current="page"]::after {
+        content: "";
+        height: 1px;
+        top: 15px;
+    }
+    
+    .navigation a:nth-child(1),
+    .navigation a:nth-child(2),
+    .navigation a:nth-child(4),
+    .navigation a:nth-child(5) {
+        position: absolute;
+        top: 65px;
+    }
+
+    .navigation a:nth-child(1) {
+        left: 0.5%;
+    }
+
+    .navigation a:nth-child(2) {
+        left: 65px;
+    }
+
+    .navigation a:nth-child(3) {
+        height: 120px;
+    }
+    
+    .navigation a:nth-child(4) {
+        left: 125px;
+    }
+
+    .navigation a:nth-child(5) {
+        left: 250px;
+    }
+}
