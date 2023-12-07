@@ -6,7 +6,7 @@
 .navigation {
     display: flex;
     gap: 80px;
-    padding-left: 117px;
+    padding-left: 87px;
     justify-content: center;
 }
 
@@ -15,6 +15,11 @@
     font-family: var(--type-second);
     font-size: 1rem;
     font-weight: 500;
+}
+
+.navigation a:nth-child(3) {
+    padding-left: 47px;
+    padding-right: 15px;
 }
 
 .navigation a:hover {
