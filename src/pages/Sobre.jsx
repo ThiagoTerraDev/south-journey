@@ -16,19 +16,19 @@ const Sobre = () => {
           passeios em destinos de tirar o fôlego, incluindo o Brasil, Argentina, Chile, Peru e Uruguai.</p>
           <ul className={styles.listaBandeiras}>
             <li>
-              <img src="src\assets\brazil-flag.png" alt="Bandeira Brasil" />
+              <img src="/brazil-flag.png" alt="Bandeira Brasil" />
             </li>
             <li>
-              <img src="src\assets\argentina-flag.png" alt="Bandeira Argentina" />
+              <img src="/argentina-flag.png" alt="Bandeira Argentina" />
             </li>
             <li>
-              <img src="src\assets\chile-flag.png" alt="Bandeira Chile" />
+              <img src="/chile-flag.png" alt="Bandeira Chile" />
             </li>
             <li>
-              <img src="src\assets\peru-flag.png" alt="Bandeira Peru" />
+              <img src="/peru-flag.png" alt="Bandeira Peru" />
             </li>
             <li>
-              <img src="src\assets\uruguai-flag.png" alt="Bandeira Uruguai" />
+              <img src="/uruguai-flag.png" alt="Bandeira Uruguai" />
             </li>
           </ul>
         </section>
@@ -40,7 +40,7 @@ const Sobre = () => {
             <p>Nossa equipe é composta por especialistas apaixonados por viagens, dedicados a tornar a sua experiência conosco verdadeiramente memorável. Com um profundo conhecimento local, nossos guias turísticos e equipe de suporte estão sempre prontos para garantir que cada detalhe da sua viagem seja perfeito.</p>
             <Button name="Fale conosco" variant="purple" path="contato"/>           
           </div>
-          <img src="src\assets\img-aviao.png" alt="Imagem de um avião no céu." />
+          <img src="/img-aviao.png" alt="Imagem de um avião no céu." />
         </section>
       </main>
 

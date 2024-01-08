@@ -32,7 +32,7 @@ const Home = () => {
     return () => clearInterval(interval);
   }, [bolinhaAtiva]);
   
-  const imagensExcursoesPath = "src/assets/";
+  const imagensExcursoesPath = "/";
 
   const imagemExcursaoMaior = styles.imagemExcursaoMaior;
   const imagensExcursoesMenores = styles.imagensExcursoesMenores;
@@ -64,15 +64,15 @@ const Home = () => {
           <div className={styles.bolinhas}>
             <span 
               className={`${styles.bolinha} ${bolinhaAtiva === 0 ? styles.active : ''}`}
-              onClick={() => handleClick(0, 'src/assets/home-bg-1.jpg')}
+              onClick={() => handleClick(0, '/home-bg-1.jpg')}
             ></span>
             <span 
               className={`${styles.bolinha} ${bolinhaAtiva === 1 ? styles.active : ''}`}
-              onClick={() => handleClick(1, 'src/assets/home-bg-2.jpg')}
+              onClick={() => handleClick(1, '/home-bg-2.jpg')}
             ></span>
             <span 
               className={`${styles.bolinha} ${bolinhaAtiva === 2 ? styles.active : ''}`}
-              onClick={() => handleClick(2, 'src/assets/home-bg-3.jpg')}
+              onClick={() => handleClick(2, '/home-bg-3.jpg')}
             ></span>
           </div>
         </section>
@@ -96,7 +96,7 @@ const Home = () => {
           <h2>DIFERENCIAIS</h2>
           <p>A South Journey oferece uma combinação única de aventura e conforto,<br />garantindo que cada excursão seja uma experiência inesquecível.</p>
           <div className={`${styles.diferenciaisDiv} container1`}>
-            <img src="src\assets\world-plane.png" alt="Logotipo avião." />
+            <img src="/world-plane.png" alt="Logotipo avião." />
             <ul className={styles.diferenciaisLista}>
               <li className={styles.gridColuna}>
                 <h4>SATISFAÇÃO</h4>
@@ -118,7 +118,7 @@ const Home = () => {
         <section className={styles.depoimentosSection}>
               <h2>DEPOIMENTOS</h2>
               <div className={styles.depoimento}>
-                <img src="src\assets\estrelas.png" alt="" />
+                <img src="/estrelas.png" alt="" />
                 <p>Minha experiência com a South Journey em Buenos Aires
                 e Punta del Este foi a melhor possível. Personalização do itinerário, atenção aos detalhes, enfim, a equipe se mostrou comprometida em oferecer um serviço excepcional. Os guias especializados nos locais visitados enriqueceram a experiência, proporcionando insights únicos. Sem dúvida, 
                 a empresa superou todas as minhas expectativas.</p>
