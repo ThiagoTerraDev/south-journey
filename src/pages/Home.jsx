@@ -18,9 +18,9 @@ const Home = () => {
 
   useEffect(() => {
     const images = [
-      '/home-bg-1',
-      '/home-bg-2',
-      '/home-bg-3'
+      '/home-bg-1.jpg',
+      '/home-bg-2.jpg',
+      '/home-bg-3.jpg'
     ];
   
     const interval = setInterval(() => {
