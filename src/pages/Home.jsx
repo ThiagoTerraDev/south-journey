@@ -6,7 +6,7 @@ import Button from "../components/Button";
 
 const Home = () => {
 
-  const imagemInicial = "src/assets/home-bg-1.jpg";
+  const imagemInicial = "/home-bg-1.jpg";
 
   const [bolinhaAtiva, setBolinhaAtiva] = useState(0);
   const [backgroundImage, setBackgroundImage] = useState(imagemInicial);
@@ -18,9 +18,9 @@ const Home = () => {
 
   useEffect(() => {
     const images = [
-      'src/assets/home-bg-1.jpg',
-      'src/assets/home-bg-2.jpg',
-      'src/assets/home-bg-3.jpg'
+      '/home-bg-1',
+      '/home-bg-2',
+      '/home-bg-3'
     ];
   
     const interval = setInterval(() => {
