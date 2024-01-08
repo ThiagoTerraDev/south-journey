@@ -49,19 +49,19 @@
     background-color: var(--color-secondary);
 }
 
-.passeiosSection h2 {
+.excursoesSection h2 {
     color: var(--color-primary);
     text-align: center;
     margin-top: 80px;
 }
 
-.passeiosSection p {
+.excursoesSection p {
     text-align: center;
     font-weight: 400;
     color: var(--color-primary);
 }
 
-.passeiosDetalhes {
+.excursoesDetalhes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;    
     grid-auto-rows: 256px;
@@ -71,22 +71,22 @@
     position: relative;
 }
 
-.passeiosDetalhes > img {
+.excursoesDetalhes > img {
     width: 100%;
     height: 100%;
     object-fit: cover;    
 }
 
-.passeiosDetalhes p {
+.excursoesDetalhes p {
     color: var(--color-primary-variation);
 }
 
-.imagemPasseioMaior {
+.imagemExcursaoMaior {
     grid-column: span 2;
     grid-row: span 2;          
 }
 
-.partirDe, .passeioPreco, .passeioTitulo {
+.partirDe, .excursaoPreco, .excursaoTitulo {
     position: absolute;
     z-index: 10;
 }
@@ -155,65 +155,65 @@
     left: -63%;  
 }
 
-.passeioPreco {
+.excursaoPreco {
     color: var(--color-primary);
     font-family: var(--type-first);
     font-size: 1.6rem;
     font-weight: 700;
 }
 
-.passeioPreco:nth-of-type(1) {
+.excursaoPreco:nth-of-type(1) {
     top: 63.4%;
     left: 3.1%;
 }
 
-.passeioPreco:nth-of-type(2) {
+.excursaoPreco:nth-of-type(2) {
     top: 17.8%;
     left: 53.8%;
 }
 
-.passeioPreco:nth-of-type(3) {
+.excursaoPreco:nth-of-type(3) {
     top: 17.8%;
     left: 79.2%;
 }
 
-.passeioPreco:nth-of-type(4) {
+.excursaoPreco:nth-of-type(4) {
     top: 69.5%;
     left: 53.8%;
 }
 
-.passeioPreco:nth-of-type(5) {
+.excursaoPreco:nth-of-type(5) {
     top: 69.5%;
     left: 79.2%;
 }
 
-.passeioTitulo {
+.excursaoTitulo {
     color: var(--gray-scale-0);
     max-width: 190px;
     font-size: 1.4rem;
 }
 
-.passeioTitulo:nth-of-type(1) {   
+.excursaoTitulo:nth-of-type(1) {   
     top: 79.8%;
     right: 79.9%;    
 }
 
-.passeioTitulo:nth-of-type(2) {    
+.excursaoTitulo:nth-of-type(2) {    
     top: 34.1%;
     right: 29.1%;
 }
 
-.passeioTitulo:nth-of-type(3) {    
+.excursaoTitulo:nth-of-type(3) {    
     top: 34.1%;
     right: 3.7%;
 }
 
-.passeioTitulo:nth-of-type(4) {    
+.excursaoTitulo:nth-of-type(4) {    
     top: 85.3%;
     right: 29.1%;
 }
 
-.passeioTitulo:nth-of-type(5) {    
+.excursaoTitulo:nth-of-type(5) {    
     top: 85.3%;
     right: 3.7%;
 }

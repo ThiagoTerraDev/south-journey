@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Head from "../components/Head";
 import styles from "./Home.module.css";
 import Button from "../components/Button";
-import Passeios from "../passeios.json";
 
 
 const Home = () => {
@@ -33,15 +32,22 @@ const Home = () => {
     return () => clearInterval(interval);
   }, [bolinhaAtiva]);
   
-  const imagensPasseiosPath = "src/assets/";
+  const imagensExcursoesPath = "src/assets/";
 
-  const imagemPasseioMaior = styles.imagemPasseioMaior;
-  const imagensPasseiosMenores = styles.imagensPasseiosMenores;
+  const imagemExcursaoMaior = styles.imagemExcursaoMaior;
+  const imagensExcursoesMenores = styles.imagensExcursoesMenores;
 
-  const [passeios, setPasseios] = useState([]);
+  const [excursoes, setExcursoes] = useState([]);
 
   useEffect(() => {
-    setPasseios(Passeios);
+    fetch('http://localhost:3000/api/excursoes')
+      .then(response => response.json())
+      .then(data => {
+        setExcursoes(data);        
+      })
+      .catch(error => {
+        console.log('Erro ao obter dados da API:', error);
+      })
   }, []);
 
   return (
@@ -71,16 +77,16 @@ const Home = () => {
           </div>
         </section>
 
-        <section className={styles.passeiosSection}>
-          <h2>PASSEIOS</h2>
+        <section className={styles.excursoesSection}>
+          <h2>EXCURSÕES</h2>
           <p>Escolha um destino e viva experiências incríveis!</p>
-          <div className={`${styles.passeiosDetalhes} container1`}>
-            {passeios.map((passeio, index) => (
-              <React.Fragment key={passeio.id}>
-                <img src={imagensPasseiosPath + passeio.imagem} alt={passeio.titulo} className={index === 0 ? imagemPasseioMaior : imagensPasseiosMenores}/>
+          <div className={`${styles.excursoesDetalhes} container1`}>
+            {excursoes.map((excursao, index) => (
+              <React.Fragment key={excursao._id}>
+                <img src={imagensExcursoesPath + excursao.imagem} alt={excursao.titulo} className={index === 0 ? imagemExcursaoMaior : imagensExcursoesMenores}/>
                 <p className={styles.partirDe}>a partir de</p>
-                <h4 className={styles.passeioPreco}>R$ {passeio.preco}</h4>
-                <h3 className={styles.passeioTitulo}>{passeio.titulo}</h3>
+                <h4 className={styles.excursaoPreco}>R$ {excursao.precoPadrao}</h4>
+                <h3 className={styles.excursaoTitulo}>{excursao.titulo}</h3>
               </React.Fragment>
             ))}
           </div>
