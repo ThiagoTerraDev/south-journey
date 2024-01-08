@@ -3,6 +3,7 @@ import styles from "./Footer.module.css";
 import { ReactComponent as Logo } from "../assets/logo.svg";
 import { ReactComponent as Linkedin } from '../assets/linkedin.svg';
 import { ReactComponent as Github } from '../assets/github.svg';
+import { NavLink } from "react-router-dom";
 
 
 const Footer = () => {
@@ -30,8 +31,8 @@ const Footer = () => {
 
         <div className={styles.footerInfos}>
           <h3>INFORMAÇÕES</h3>
-          <a href="/sobre">Sobre</a>
-          <a href="/termosecondicoes">Termos e Condições</a>
+          <NavLink to="/sobre">Sobre</NavLink>
+          <NavLink to="/termosecondicoes">Termos e Condições</NavLink>          
         </div>
       </div>
 
