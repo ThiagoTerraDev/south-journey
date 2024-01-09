@@ -40,7 +40,7 @@ const Home = () => {
   const [excursoes, setExcursoes] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/excursoes')
+    fetch('https://restful-api-nodejs.vercel.app/api/excursoes')
       .then(response => response.json())
       .then(data => {
         setExcursoes(data);        
