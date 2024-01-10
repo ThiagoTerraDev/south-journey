@@ -11,7 +11,7 @@ const Sobre = () => {
       
       <main>
         <section className={styles.sobreIntro}>
-          <h1>O QUE NÓS FAZEMOS??</h1>
+          <h1>O QUE NÓS FAZEMOS?</h1>
           <p>Bem-vindo à South Journey, a sua porta de entrada para explorar as maravilhas da América do Sul. Especializados em excursões emocionantes e inesquecíveis, oferecemos uma variedade de
           passeios em destinos de tirar o fôlego, incluindo o Brasil, Argentina, Chile, Peru e Uruguai.</p>
           <ul className={styles.listaBandeiras}>
