@@ -2,12 +2,12 @@
 
 describe('Teste de navegação no Header', () => {
     it('Carrega a página Home', () => {
-        cy.visit('http://localhost:5173');
+        cy.visit('http://localhost:5173')
     })
 
     it('Carrega a página Sobre', () => {
         cy.visit('http://localhost:5173')
-        cy.get('._navigation_1mo8m_6 > [href="/sobre"]').click()
+        cy.get('#menu > [href="/sobre"]').click()
         cy.url().should('include', '/sobre')
     })
 
@@ -19,7 +19,7 @@ describe('Teste de navegação no Header', () => {
 
     it('Carrega a página Termos e Condições', () => {
         cy.visit('http://localhost:5173')
-        cy.get('._navigation_1mo8m_6 > [href="/termosecondicoes"]').click()
+        cy.get('#menu > [href="/termosecondicoes"]').click()
         cy.url().should('include', '/termosecondicoes')
     })
     
