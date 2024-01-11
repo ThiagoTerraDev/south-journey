@@ -126,7 +126,7 @@ a {
     }
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 2.1rem;
     }
 }
 
@@ -137,6 +137,34 @@ a {
 
     .container2 {
         max-width: 205px;        
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 501px) {
+    .container1 {
+        max-width: 351px;
+    }
+
+    .container2 {
+        max-width: 155px;        
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 416px) {
+    .container1 {
+        max-width: 301px;
+    }
+
+    .container2 {
+        max-width: 105px;        
     }
 
     h1 {

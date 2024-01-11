@@ -75,3 +75,63 @@ input, textarea {
     margin-top: 20px;
     margin-bottom: 80px;
 }
+
+@media (max-width: 1001px) {
+    .dadosRedes {
+        display: none;
+    }
+
+    .conteudoPrincipal {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 801px) {
+    .conteudoPrincipal {
+        max-width: 520px;
+    }
+}
+
+@media (max-width: 651px) {
+    .conteudoPrincipal {
+        max-width: 470px;
+    }
+}
+
+@media (max-width: 651px) {
+    .conteudoPrincipal {
+        max-width: 470px;
+    }
+}
+
+@media (max-width: 601px) {
+    .conteudoPrincipal {
+        max-width: 401px;
+    }
+
+    label, input, textarea {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 501px) {
+    .conteudoPrincipal {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 416px) {
+    .conteudoPrincipal {
+        max-width: 301px;
+    }
+
+    label, input, textarea {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 361px) {
+    .conteudoPrincipal {
+        max-width: 290px;
+    }
+}

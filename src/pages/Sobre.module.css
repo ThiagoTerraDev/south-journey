@@ -59,3 +59,64 @@ li img {
     max-width: 361px;
     justify-self: end;    
 }
+
+@media (max-width: 1001px) {
+    .sobreIntro p {
+        max-width: 740px;
+    }
+    
+    .missaoSection {
+        grid-template-columns: 1fr;
+    }
+    
+    .missaoSection img {
+        display: none;
+    }
+}
+
+@media (max-width: 801px) {
+    .sobreIntro p {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 651px) {
+    .sobreIntro p {
+        max-width: 500px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 601px) {
+    .sobreIntro p {
+        max-width: 400px;
+    }
+
+    .listaBandeiras {
+        display: none;
+    }
+}
+
+@media (max-width: 501px) {
+    .sobreIntro p {
+        max-width: 340px;
+    }
+
+    .missaoSection h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 416px) {
+    .sobreIntro p, .missaoSection p {
+        max-width: 300px;
+        font-size: 1.05rem;
+    }
+}
+
+@media (max-width: 361px) {
+    .sobreIntro p, .missaoSection p {
+        max-width: 280px;
+        font-size: 1.05rem;
+    }
+}

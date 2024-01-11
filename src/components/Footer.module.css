@@ -115,6 +115,53 @@ p {
     
 } */
 
+@media (max-width: 416px) {
+    footer {
+        padding: 2rem 0;
+    }
+    
+    .footerConteudo {
+        gap: 0px;
+        grid-template-columns: 1fr;
+        place-content: center;                   
+    }
+
+    .footerConteudo svg {
+        max-width: 120px
+    }
+    
+    .footerInfos {
+        display: none;
+    } 
+
+    .footerContato2 {
+        margin-bottom: 24px;
+    }
+    
+    .redesSociaisFooter {
+        margin: 0 auto;
+        padding-left: 8px;
+        gap: 8px;
+        justify-content: center;
+    }
+
+    .redesSociaisFooter svg {
+        max-width: 65%;
+    }
+
+    footer p, footer h3 {
+        text-align: center;
+    }
+
+    footer p {
+        font-size: 0.6rem;
+    }
+
+    footer h3 {
+        margin-bottom: 24px;
+    } 
+}
+
 @media (max-width: 361px) {
     footer {
         padding: 2rem 0;
