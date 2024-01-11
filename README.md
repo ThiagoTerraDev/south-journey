@@ -75,7 +75,7 @@ $ npm run tests
 
 ```
 
-Em seguida, selecione a opção ˜E2E Testing" e execute os testes no Chrome. Clique no arquivo "navigation.cy.js".
+Em seguida, selecione a opção "E2E Testing" e execute os testes no Chrome. Clique no arquivo "navigation.cy.js".
 
 ![Testes rodando no Cypress](./public/teste-cypress-front.png)
 
