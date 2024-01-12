@@ -17,29 +17,6 @@ Repositório do back-end: https://github.com/ThiagoTerraDev/restful-api-nodejs
 ![Página Termos e Condições - mobile](./public/termos-mobile-readme.png)
 
 
-## Principais tecnologias utilizadas:
-![CSS3](https://img.shields.io/badge/CSS-239120?logo=css3&logoColor=white&style=for-the-badge)
- 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-
-![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
-
-
-## Motivação
-
-Decidi ir além dos pré-requisitos definidos pela minha instituição de pós-graduação, para o MVP em questão, ao buscar desenvolver um projeto fullstack completo. O intuito é consolidar ainda mais os meus conhecimentos e experiência atuando com as tecnologias supracitadas, como, também, na esfera do back-end (repositório mencionado anteriormente).
-
-## Status: em desenvolvimento
-
-Algumas melhorias e funcionalidades serão implementadas, no intuito de otimizar ainda mais a experiência do usuário. São elas:
-
-- Autenticação: Implementação de cadastro e login.
-- Criação de novas páginas e seções: para login e cadastro; detalhamento de cada excursão, serviços adicionais que poderão ser contratados; página de checkout.
-- Ajustes na responsividade do site.
-- Envio das informações preenchidas no formulário ao back-end.
-- Implementação de testes de componentes com Cypress.
-
-
 ## Como executar a aplicação
 
 Será necessário ter o Node.js, ou o npm, instalados.
@@ -78,6 +55,30 @@ $ npm run tests
 Em seguida, selecione a opção "E2E Testing" e execute os testes no Chrome. Clique no arquivo "navigation.cy.js".
 
 ![Testes rodando no Cypress](./public/teste-cypress-front.png)
+
+
+## Principais tecnologias utilizadas:
+![CSS3](https://img.shields.io/badge/CSS-239120?logo=css3&logoColor=white&style=for-the-badge)
+ 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e)
+
+
+## Motivação
+
+Decidi ir além dos pré-requisitos definidos pela minha instituição de pós-graduação, para o MVP em questão, ao buscar desenvolver um projeto fullstack completo. O intuito é consolidar ainda mais os meus conhecimentos e experiência atuando com as tecnologias supracitadas, como, também, na esfera do back-end (repositório mencionado anteriormente).
+
+
+## Status: em desenvolvimento
+
+Algumas melhorias e funcionalidades serão implementadas, no intuito de otimizar ainda mais a experiência do usuário. São elas:
+
+- Autenticação: Implementação de cadastro e login.
+- Criação de novas páginas e seções: para login e cadastro; detalhamento de cada excursão, serviços adicionais que poderão ser contratados; página de checkout.
+- Ajustes na responsividade do site.
+- Envio das informações preenchidas no formulário ao back-end.
+- Implementação de testes de componentes com Cypress.
 
 
 ## Entre em contato
