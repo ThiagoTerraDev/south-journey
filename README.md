@@ -45,7 +45,7 @@ Abra o localhost no navegador.
 
 ## Como executar os Testes
 
-Para os testes End-to-End: Após executar o projeto do front end, através das instruções supracitadas, abra um novo terminal e execute o seguinte comando:
+Para os testes End-to-End: Após executar o projeto do front end, através das instruções supracitadas, abra um novo terminal, navegue até o diretório raiz do projeto e execute o seguinte comando:
 
 ```
 $ npm run tests
