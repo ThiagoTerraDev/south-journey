@@ -67,7 +67,7 @@ Em seguida, selecione a opção "E2E Testing" e execute os testes no Chrome. Cli
 
 ## Motivação
 
-Decidi ir além dos pré-requisitos definidos pela minha instituição de pós-graduação, para o MVP em questão, ao buscar desenvolver um projeto fullstack completo. O intuito é consolidar ainda mais os meus conhecimentos e experiência atuando com as tecnologias supracitadas, como, também, na esfera do back-end (repositório mencionado anteriormente).
+Decidi ir além dos pré-requisitos definidos pela minha instituição de pós-graduação, para o MVP em questão, ao buscar desenvolver um projeto full stack completo. O intuito é consolidar ainda mais os meus conhecimentos e experiência atuando com as tecnologias supracitadas, como, também, na esfera do back-end (repositório mencionado anteriormente).
 
 
 ## Status: em desenvolvimento
